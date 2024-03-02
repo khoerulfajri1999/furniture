@@ -1,0 +1,142 @@
+.product {
+  font-family: var(--headingFont);
+}
+
+.heading-product {
+  font-weight: 700;
+}
+
+.toggle-slider i {
+  font-size: 2.2rem;
+  color: var(--secondaryColor);
+}
+
+.toggle-slider i:hover {
+  color: var(--primaryColor);
+}
+
+.product-populer .img-box {
+  border: 2px solid var(--primaryColor);
+}
+
+.product-populer .card-product {
+  width: 280px;
+}
+
+.detail-product .label {
+  background-color: var(--primaryColor);
+  width: 80px;
+  color: white;
+}
+
+.jumlah-produk {
+  font-family: var(--mainFont);
+}
+.detail-product .label:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.product-populer a {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-size: 1.8rem;
+}
+
+.product-populer a:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.card-list {
+  width: 16rem;
+  box-shadow: 1px 3px 10px #888888;
+}
+
+.img-box {
+  background-color: var(--primaryColor);
+}
+.jumlah-bintang {
+  font-family: var(--mainFont);
+}
+
+.new-product .card-title {
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.price {
+  font-weight: 700;
+  font-size: large;
+}
+
+.price-wrapper i {
+  font-size: 1.7rem;
+}
+
+.price-wrapper a {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+}
+.price-wrapper a:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.btn-load button {
+  background-color: var(--secondaryColor);
+  color: white;
+}
+
+/* banner2 */
+.banner2 {
+  font-family: var(--headingFont);
+}
+
+.banner2 .banner-wrapper {
+  background-color: var(--primaryColor);
+}
+
+.banner2 .price {
+  width: 90%;
+}
+
+.banner2 .price p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.banner2 .price .normal {
+  text-decoration: line-through !important;
+}
+
+.banner2 .price .promo {
+  color: var(--secondaryColor);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-slider i {
+    font-size: 3.4rem;
+  }
+  .banner2 .content-left {
+    width: 50%;
+  }
+  .banner2 .price {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .heading-banner2 {
+    font-size: 27px;
+  }
+
+  .banner2 .content-left {
+    width: 50%;
+  }
+
+  .banner2 .price {
+    width: 80%;
+  }
+}

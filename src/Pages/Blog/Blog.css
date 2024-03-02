@@ -1,0 +1,27 @@
+.section-margin {
+  margin-top: 100px;
+}
+
+.heading-blog {
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.blog .card-title {
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+
+.blog .btn {
+  background-color: var(--secondaryColor);
+  font-family: var(--headingFont);
+}
+
+.blog .btn:hover {
+  color: white;
+}
+
+.blog .card-product {
+  width: 70%;
+  padding: 3rem 0;
+}

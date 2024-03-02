@@ -1,0 +1,21 @@
+.contact #message {
+  height: 10rem;
+}
+
+.contact input,
+.contact textarea {
+  background-color: #dad9d9;
+}
+
+.contact .btn {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+#contactForm {
+  font-family: var(--headingFont);
+}
+
+#contactForm label {
+  font-weight: 700;
+}

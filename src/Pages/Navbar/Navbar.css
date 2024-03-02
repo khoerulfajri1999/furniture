@@ -1,0 +1,62 @@
+.navbar {
+  background-color: var(--primaryColor);
+  /* position: fixed; */
+}
+
+.navbar-brand {
+  font-family: var(--headingFont);
+  font-weight: 900;
+}
+
+.navbar-brand span {
+  color: var(--secondaryColor);
+}
+
+.nav-link {
+  font-family: var(--headingFont);
+}
+
+.focus button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.focus button:focus {
+  color: var(--secondaryColor) !important;
+}
+
+.focus a .nav-link:focus {
+  font-weight: 700;
+  color: var(--secondaryColor);
+}
+
+.icons-home i {
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    font-size: 20px;
+  }
+  .navbar-brand {
+    font-size: 33px;
+  }
+  .icons-home i {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding-top: 25px;
+    font-size: 15px;
+  }
+  .navbar-brand {
+    font-size: 22px;
+  }
+  .icons-home i {
+    font-size: 1.3rem;
+  }
+}

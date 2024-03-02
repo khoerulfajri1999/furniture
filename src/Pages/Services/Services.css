@@ -1,0 +1,28 @@
+.services {
+  font-family: var(--headingFont);
+}
+
+.heading-services {
+  font-weight: 700;
+}
+
+.section-margin {
+  margin-top: 200px;
+}
+
+.card-services {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.card-services .btn-services {
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+  text-decoration: none;
+}
+.card-services .btn-services:hover {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
